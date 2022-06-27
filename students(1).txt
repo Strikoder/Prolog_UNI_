@@ -1,0 +1,48 @@
+
+student(5004, "Mohamad_Alamin",scholarship_student).
+student(1000, "Anna_Alexandarovn",not_scholarship_student).
+student(2221, "Kristina_Alexandaro",not_scholarship_student).
+student(1058, "Shuhrat_John",not_scholarship_student).
+student(3200, "Anastasia_Vladimir",not_scholarship_student).
+student(4400, "Dimitry_Sergeyvit",not_scholarship_student).
+student(1998, "Natalia_Dimitrov",scholarship_student).
+student(1234, "Darya_Alexandrov",not_scholarship_student).
+student(5678, "Ahmad_Alhmadovis",not_scholarship_student).
+
+group(1,"computer_Science",2,"nknbd-01-20").
+group(2,"computer_Science",1,"nknbd-01-21").
+group(3,"foundation_of_informatics",2,"nfibd-01-20").
+group(4,"practical_informatics",2,"npibd-01-20").
+group(5,"business_informatics",2,"nbibd-01-20").
+
+country("SY",5004).
+country("RU",1000).
+country("RU",2221).
+country("USA",1058).
+country("RU",3200).
+country("RU",4400).
+country("RU",1998).
+country("RU",1234).
+country("KSA",5678).
+
+
+where_studies(5004,1).
+where_studies(1000,2).
+where_studies(2221,3).
+where_studies(1058,4).
+where_studies(3200,1).
+where_studies(4400,1).
+where_studies(1998,1).
+where_studies(1234,1).
+where_studies(5678,5).
+
+graduation_mark(5004,100).
+graduation_mark(1000,61).
+graduation_mark(2221,69).
+graduation_mark(1058,51).
+graduation_mark(3200,99).
+graduation_mark(4400,65).
+graduation_mark(1998,78).
+graduation_mark(1234,86).
+graduation_mark(5678,40).
+
